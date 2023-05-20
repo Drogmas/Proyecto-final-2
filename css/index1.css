@@ -1,0 +1,48 @@
+:root{
+    --bs-body-font-family:'Nunito', sans-serif
+}
+
+body{
+    background: linear-gradient(45deg,#094d74,#759cd8,#9cb9d1,#cfdaec,#eef0f6);
+    position: relative;
+    animation: cambiar 10s ease-in-out infinite;
+    background-size: 400% 400%;
+    }
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+.btn{
+    background-color: #1abebe;
+    font-weight: 800;
+}
+
+.btn:hover{
+    background-color: #636aff;
+}
+
+.titulo{
+    text-align: center;
+    background-color: rgb(104, 149, 175);
+    padding-top: 25px ;
+    padding-bottom: 25px;
+    border-radius: 5%;
+}
+
+.titulo2{
+    background-color: rgb(104, 149, 175);
+    padding: 15px;
+    border-radius: 5%;
+}
+
+.titulo3{
+    background-color: rgb(104, 149, 175);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5%;
+}
